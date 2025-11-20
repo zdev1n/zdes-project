@@ -51,7 +51,7 @@
 
  @font-face {
     font-family:str ;
-    src: url(/StretchPro.otf);
+     src: url(/font/StretchPro.otf);
  }
  .hero {
    display: flex;
