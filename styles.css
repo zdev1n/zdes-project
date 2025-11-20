@@ -1,0 +1,373 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family:str ;
+  }
+  body {
+    background-color: black;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin: 2rem auto;
+    max-width: 1100px;
+    height: 50px ;
+  }
+
+  .navigation ul{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+
+  }
+ header img{
+    width: 200px;
+ }
+
+ .navigation a {
+    text-decoration: none;
+    color:aliceblue;
+ }
+
+  .navigation a:hover {
+     color:rgb(0, 136, 255);
+ }
+ hr{
+    opacity: 15%;
+ }
+
+ @font-face {
+    font-family:str ;
+    src: url(/StretchPro.otf);
+ }
+ .hero {
+   display: flex;
+   
+   align-items: center;
+   margin: -4rem auto;
+ 
+   margin-right: 120px;
+   
+   
+ }
+ 
+ section img {
+
+   width: 1000px;
+ }
+
+ .title {
+   color: aliceblue;
+   margin-right: 100px;
+   font-size: 25px;
+ }
+
+ 
+ .hireMe {
+   margin-left: 50px;
+   margin-bottom: 50px;
+   font-size: 25px;
+   color: rgb(89, 99, 177);
+   border-radius: 100px;
+   text-decoration: none;
+   border-color: #ffffff;
+   margin-top: 100px;
+   display: inline-block;
+   text-align: center;
+
+ }
+
+ .name {
+   color: #ffffff;
+ }
+
+ .titlework1 {
+    color: #ffffff;
+   margin: 100px;
+   display: flex;
+   
+ }
+
+ .desphoto {
+   display:flex;
+   justify-content: space-around;
+   align-items: first center;
+   margin: 0rem;
+   max-width: 100%;
+   margin-right: 120px;
+   margin-left: 100px;
+   padding: 10rem 10rem;
+   height: auto;
+   flex-wrap: wrap;
+   gap: 0px;
+   
+
+ }
+
+a {
+  position: relative;
+  z-index: 10;
+}
+
+.desphoto1 {
+  
+  margin-top: -190px;
+}
+ .desphoto2 {
+  margin-top: -90px;
+  margin-left: -20px;
+ }
+ 
+ .desphoto4 {
+  margin-top: -180px;
+  margin-left: -5px;
+ }
+ .desphoto5 {
+  margin-top: -90px;
+  margin-left: -10px;
+ }
+ .desphoto6 {
+  margin-top: -90px;
+ }
+
+
+ 
+  .dev {
+    color: #ffffff;
+    display: flex;
+
+    width: -100px;
+    height: -100px;
+ 
+  }
+
+  .hireMe {
+    margin-left: -400px;
+    margin-top: 290px;
+  }
+ .aboutname {
+    color: #ffffff;
+    size: 10px;
+    margin-left: 350px;
+    margin-top: -80px;
+ }
+
+ .contactsec {
+  width: 700px;
+  height: 0 auto;
+  margin-left: 100px;
+  margin-top: -130px;
+ }
+
+
+  @media (max-width: 1023px) {
+
+  .contactsec {
+    margin-left: -200PX;
+    width: 10000PX !important;
+    height: 0 auto;
+    margin-top: -1550px;
+  }
+
+
+    html, body {
+    overflow-x: hidden;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+    .site {
+      width: 600px !important;
+      margin: 0 auto;
+    }
+  header {
+    
+    margin-left: 1rem !important;
+    margin-right: 100px ;
+    justify-content: space-between;
+    margin: 40px -20px auto;
+    height:-3rem!important;
+    font-size: 0.8rem ;
+    width: 11.5rem !important;
+ 
+  }
+  
+  
+  .des {
+    width: 22rem;
+    height: 0 auto;
+    margin-left:14rem;
+    margin-top: 5rem;
+    
+  }
+  .title {
+    font-size: 0.8rem !important;
+    margin-left: -3.7rem;
+    width: 150px;
+    margin-top: 0.1rem;
+  }
+.name {
+  font-size: 1.5rem !important;
+  margin-left: -3.6rem;
+  font-size: 1.3rem !important;
+
+}
+.hireMe img {
+  width:  10rem!important;
+  margin: 0 auto !important;
+  display: block !important;
+  margin-right: -10rem !important;
+  margin-top: 160px !important;
+  margin-left: -260px !important;
+}
+.hireMe {
+width: 10rem;
+height: auto;
+margin-left: 3rem;
+}
+
+.titlework1 {
+  font-size: 1.2rem;
+  width: 500px;
+  margin-top:  4rem;
+  margin-left: 0.1rem !important;
+}
+
+.desphoto1 img {
+  display: flex !important;
+  width: 60rem !important;
+  height: auto;
+  margin-left: -16rem !important;
+  margin-top: -2rem !important;
+  margin: 640px;
+}
+.desphoto2 img {
+    display: block!important;
+  width: 24.7rem !important;
+  height: auto;
+  margin-left: -15.1rem !important;
+  margin-top: -36.5rem !important;
+  margin: 1000px;
+}
+.desphoto3 img {
+  display: block;
+  width: 457px !important;
+  height: auto;
+  margin-left: -12rem !important;
+  margin-top: -56.5rem !important;
+  margin: 50rem;
+}
+.desphoto4 img {
+  display: block;
+  width: 385px !important;
+  height: auto !important;
+  margin-left: -15.6rem !important;
+  margin-top: -60.3rem !important;
+  margin: 50rem;
+}
+.desphoto5 img {
+      display: block !important;
+  width: 390px !important;
+  margin-left: -15.5rem !important;
+  margin-top: -51rem !important;
+  margin: 50rem;
+}
+ .desphoto6 img {
+    display: block !important;
+  width: 390px !important;
+  margin-left: -16rem !important;
+  margin-top: -46.4rem !important;
+  margin: 50rem;
+ }
+
+ 
+ .aboutname {
+  margin-top: -800px;
+  width: 300px;
+  font-size: 20px !important;
+  margin-left: -150px;
+ }
+ .hireMe {
+  margin-left: 80px;
+ }
+
+  .hero {
+    display: flex;
+   
+   align-items: center;
+   margin: 0rem auto;
+   margin-left: -300px;
+   margin-right: 120px;
+  }
+
+
+  .name,
+  .title {
+    font-size: 2rem;
+  }
+  .arrow {
+    display: none;
+  }
+  .aboutMe {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 2rem;
+  }
+  .textContainer {
+    align-items: center;
+    margin: 0rem 5rem;
+    gap: 1rem;
+  }
+  .aboutName,
+  .aboutTitle {
+    font-size: 2rem;
+  }
+  .light {
+    width: 60px;
+  }
+  .aboutMeImg {
+    width: 400px;
+  }
+  .works {
+    padding: 0;
+  }
+  .worksContainer {
+    padding: 5rem 0rem;
+    gap: 3rem;
+  }
+  .projectTitle {
+    margin-left: 1rem;
+  }
+  .works ul {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .contactContainer {
+    margin: 10rem 5rem;
+    gap: 2rem;
+  }
+  .contact {
+    flex-direction: column;
+    gap: 1rem;
+    margin-right: 0;
+  }
+  .whatsapp {
+    margin-top: -60rem;
+    width: 300px;
+    font-size: 10px;
+  }
+
+}
