@@ -51,7 +51,7 @@
 
  @font-face {
     font-family:str ;
-    src: url(/font/StretchPro.woff);
+    src: url('./font/StretchPro.woff');
  }
  }
  .hero {
